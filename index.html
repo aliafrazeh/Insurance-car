@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Insurance car</title>
+</head>
+<body>
+    <div class="container">
+        <h2>محاسبه آنلاین قیمت بیمه</h2>
+        <div class="content">
+             <form action="#" id="request-quote">
+                <div id="messages"></div>
+                <select name="" id="make">
+                    <option value="">انتخاب</option>
+                    <option value="1">پراید</option>
+                    <option value="2">پژوپارس</option>
+                    <option value="3">سمند</option>
+                </select>
+                <label for="">مدل ماشین</label>
+
+                <br>
+                <select name="" id="year"></select>
+                <label for="year">سال ساخت</label>
+
+                <br>
+                <input type="radio" name="level" value="basic" checked>
+                <label for="yearcreatecar">ساده - شخص ثالث</label>
+                <br>
+                <input type="radio" name="level" value="complete">
+                <label for="bimesals">کامل - شخص ثالث با بیمه</label>
+                <br>
+                <div class="loading">
+                    <img src="loading.gif" alt="loading" >
+                </div>
+                <div id="result">
+                </div>
+                <br>
+                <button>محاسبه قیمت</button>
+            </form>
+        </div>
+        
+  
+        
+    </div>
+    <script src="js/classes.js"></script>
+  
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-image: linear-gradient(to right,#ac3bc9,#f3970d);
+}
+
+.container{
+    background: #fff;
+    justify-content: center;
+    top: 0;
+    width: 70%;
+    margin: auto;
+    text-align: right;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content{
+    margin-top: 20px;
+}
+a:hover, a:visited, a:link, a:active a:focus{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    background-color: #1498b9;
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    top: 0;
+    margin: 0;
+}
+button{
+    background: #047260;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 43px;
+    margin: auto;
+    font-size: 17px;
+}
+
+input{
+    text-align: right;
+    direction: rtl;
+}
+.error{
+    background: #ac412e;
+    color:#ffffff;
+    padding: 8px 13px 8px 13px;
+    width: 60%;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+.loading{
+}
+.loading img{
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+#result{
+    text-align: center;
+}
+.header{
+    background: #1498b9;
+    color: #fff;
+    font-size: 17px;
+    margin: auto;
+   
+}
+@media only screen and (max-width: 2200px) {
+    select {
+        background-color: #1395ff;
+        color: #fff;
+        border: none;
+        text-align: right;
+        border-radius: 4px;
+        width:250px;
+        height:40px;
+        margin-top: 5px;
+    } 
+}
+@media only screen and (max-width: 600px) {
+    select {
+        background-color: #0099ff;
+        color: #fff;
+        border: none;
+        text-align: right;
+        border-radius: 4px;
+        width:150px;
+        height:40px;
+        margin-top: 2px;
+    } 
+}
+option{
+    text-align: right;
+    direction: rtl;
+}
